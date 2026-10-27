@@ -1,0 +1,71 @@
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Credentials / local configuration; never commit actual API keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+credentials.*
+secrets.*
+api_keys.*
+api_key.*
+apikeys.*
+keys.json
+*token*.json
+.aws/
+.ssh/
+config.local.*
+settings.local.*
+
+# Private runtime state (including nested V0.2 data)
+data/
+private/
+user_data/
+memory/
+logs/
+chat_history/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+
+# Local snapshots, archives and generated verification output
+backups/
+test_artifacts/
+*.zip
+*.7z
+*.bak
+*.tmp
+
+# Unused earlier character assets, preserved locally
+/assets/
+/MaidAssistant_V02_preview/MaidAssistant_V02/assets/maid_fullbody.png
+
+# Local editor / OS state
+.vs/
+.vscode/
+.idea/
+.codex/
+.agents/
+Thumbs.db
+Desktop.ini
+.DS_Store
